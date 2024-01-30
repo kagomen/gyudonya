@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+* {
+  margin:0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-family: "Verdana", "Arial", "BIZ UDゴシック", "BIZ UDGothic", sans-serif;
+}
+
+#container{
+  width: 400px;
+  margin: 56px auto 0;
+}
+
+h1{
+  margin-bottom: 32px;
+  font-size: 20px;
+  text-align: center;
+}
+
+p{
+  text-align: right;
+  margin-top: 24px;
+}
+
+.menus > li {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+}
+
+.menus button {
+  margin-right: 8px;
+  width: 24px;
+}
